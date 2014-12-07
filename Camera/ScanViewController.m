@@ -46,7 +46,7 @@
     mainVC.sideBarButton.action = @selector(revealToggle:);
     
     //設定手勢
-    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    //[self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     //先讓鍵盤升起
     //[self.scanTextField becomeFirstResponder];
     
@@ -56,6 +56,11 @@
     
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

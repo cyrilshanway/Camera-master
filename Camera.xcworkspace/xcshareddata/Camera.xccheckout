@@ -12,20 +12,24 @@
 	<dict>
 		<key>A45240B64D312EF1204EC3681CF33C941765A978</key>
 		<string>https://github.com/cyrilshanway/Camera.git</string>
+		<key>C1E63DD243D325408250A154A53B74371602F0E9</key>
+		<string>https://github.com/cyrilshanway/Camera-master.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Camera.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A45240B64D312EF1204EC3681CF33C941765A978</key>
+		<string>../../Camera</string>
+		<key>C1E63DD243D325408250A154A53B74371602F0E9</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/cyrilshanway/Camera.git</string>
+	<string>https://github.com/cyrilshanway/Camera-master.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>A45240B64D312EF1204EC3681CF33C941765A978</string>
+	<string>C1E63DD243D325408250A154A53B74371602F0E9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>A45240B64D312EF1204EC3681CF33C941765A978</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Camera</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C1E63DD243D325408250A154A53B74371602F0E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Camera-master</string>
 		</dict>
 	</array>
 </dict>

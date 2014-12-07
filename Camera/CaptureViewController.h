@@ -13,7 +13,8 @@
 @interface CaptureViewController : UIViewController
 
 //儲存目前影片的URL
-@property (nonatomic, strong) NSURL *videoURL;
+@property (nonatomic, strong) NSURL *videoURLString;
+@property (nonatomic, strong) NSString *videoURL;
 //負責影片播放
 @property (nonatomic, strong) MPMoviePlayerController *videoController;
 

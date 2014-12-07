@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		08968C480271E8C8A5CC03FB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37105F85DB2BA69C91E5415E /* libPods.a */; };
+		7602B84A1A2E882900E06A12 /* connect-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 7602B8491A2E882900E06A12 /* connect-64.png */; };
 		7665110B1A22C09A0046F22C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7665110A1A22C09A0046F22C /* MBProgressHUD.m */; };
 		766609301A2ADA5F009E8578 /* share_bakckground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7666092D1A2ADA5F009E8578 /* share_bakckground.jpg */; };
 		766609311A2ADA5F009E8578 /* raed_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7666092E1A2ADA5F009E8578 /* raed_back.jpg */; };
 		766609321A2ADA5F009E8578 /* share_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7666092F1A2ADA5F009E8578 /* share_background.jpg */; };
+		769A665B1A2F0C3700570B5B /* add-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 769A665A1A2F0C3700570B5B /* add-48.png */; };
+		76ABD2D21A2D465500976BFA /* share_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 76ABD2D11A2D465500976BFA /* share_64.png */; };
+		76ABD2D51A2D4BDC00976BFA /* check_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 76ABD2D31A2D4BDC00976BFA /* check_yes.png */; };
+		76ABD2D61A2D4BDC00976BFA /* check_no.png in Resources */ = {isa = PBXBuildFile; fileRef = 76ABD2D41A2D4BDC00976BFA /* check_no.png */; };
+		76ABD4ED1A2DA06400976BFA /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABD4EC1A2DA06400976BFA /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
 		76C0DE491A28059F001CBA6B /* circle-facebook-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C0DE481A28059F001CBA6B /* circle-facebook-512.png */; };
 		76C0DEB01A28797C001CBA6B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0DEAF1A28797C001CBA6B /* LoginViewController.m */; };
 		76C7D2161A26B8780062FEC0 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C7D2041A26B8780062FEC0 /* AFHTTPClient.m */; };
@@ -55,6 +61,8 @@
 		76C9D4161A21C73D00C5BD61 /* choose_photo-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C9D4151A21C73C00C5BD61 /* choose_photo-48.png */; };
 		76C9D4191A21C7C800C5BD61 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C9D4181A21C7C800C5BD61 /* WebViewController.m */; };
 		76C9D44D1A21D1F900C5BD61 /* backGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76C9D44C1A21D1F900C5BD61 /* backGround.jpg */; };
+		76CA375C1A2E979B000009AE /* myBook-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA375B1A2E979B000009AE /* myBook-64.png */; };
+		76CA375F1A2E982F000009AE /* MyBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CA375E1A2E982F000009AE /* MyBookViewController.m */; };
 		76CB5B6A1A2C5CCB0061C915 /* mail-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CB5B671A2C5CCB0061C915 /* mail-64.png */; };
 		76CB5B6B1A2C5CCB0061C915 /* connect_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76CB5B681A2C5CCB0061C915 /* connect_back.jpg */; };
 		76CB5B6C1A2C5CCB0061C915 /* about-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CB5B691A2C5CCB0061C915 /* about-64.png */; };
@@ -108,11 +116,18 @@
 /* Begin PBXFileReference section */
 		37105F85DB2BA69C91E5415E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		609487E0BCEF9E7DE38C9005 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7602B8491A2E882900E06A12 /* connect-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect-64.png"; sourceTree = "<group>"; };
 		766511091A22C09A0046F22C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7665110A1A22C09A0046F22C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		7666092D1A2ADA5F009E8578 /* share_bakckground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = share_bakckground.jpg; sourceTree = "<group>"; };
 		7666092E1A2ADA5F009E8578 /* raed_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = raed_back.jpg; sourceTree = "<group>"; };
 		7666092F1A2ADA5F009E8578 /* share_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = share_background.jpg; sourceTree = "<group>"; };
+		769A665A1A2F0C3700570B5B /* add-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-48.png"; sourceTree = "<group>"; };
+		76ABD2D11A2D465500976BFA /* share_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_64.png; sourceTree = "<group>"; };
+		76ABD2D31A2D4BDC00976BFA /* check_yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_yes.png; sourceTree = "<group>"; };
+		76ABD2D41A2D4BDC00976BFA /* check_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_no.png; sourceTree = "<group>"; };
+		76ABD4EB1A2DA06400976BFA /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		76ABD4EC1A2DA06400976BFA /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
 		76C0DE481A28059F001CBA6B /* circle-facebook-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-facebook-512.png"; sourceTree = "<group>"; };
 		76C0DEAE1A28797C001CBA6B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		76C0DEAF1A28797C001CBA6B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -166,8 +181,8 @@
 		76C9D3FC1A21889200C5BD61 /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableViewController.m; sourceTree = "<group>"; };
 		76C9D3FE1A21920000C5BD61 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		76C9D3FF1A21920000C5BD61 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		76C9D4021A21942B00C5BD61 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		76C9D4031A21942B00C5BD61 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		76C9D4021A21942B00C5BD61 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = Camera/SWRevealViewController.h; sourceTree = "<group>"; };
+		76C9D4031A21942B00C5BD61 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = Camera/SWRevealViewController.m; sourceTree = "<group>"; };
 		76C9D4051A21AEB100C5BD61 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		76C9D4061A21AEB100C5BD61 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 		76C9D4091A21AFA200C5BD61 /* mario.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = mario.ico; sourceTree = "<group>"; };
@@ -179,6 +194,9 @@
 		76C9D4171A21C7C800C5BD61 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		76C9D4181A21C7C800C5BD61 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		76C9D44C1A21D1F900C5BD61 /* backGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGround.jpg; sourceTree = "<group>"; };
+		76CA375B1A2E979B000009AE /* myBook-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myBook-64.png"; sourceTree = "<group>"; };
+		76CA375D1A2E982F000009AE /* MyBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBookViewController.h; sourceTree = "<group>"; };
+		76CA375E1A2E982F000009AE /* MyBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBookViewController.m; sourceTree = "<group>"; };
 		76CB5B671A2C5CCB0061C915 /* mail-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail-64.png"; sourceTree = "<group>"; };
 		76CB5B681A2C5CCB0061C915 /* connect_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = connect_back.jpg; sourceTree = "<group>"; };
 		76CB5B691A2C5CCB0061C915 /* about-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-64.png"; sourceTree = "<group>"; };
@@ -262,13 +280,24 @@
 				766511091A22C09A0046F22C /* MBProgressHUD.h */,
 				7665110A1A22C09A0046F22C /* MBProgressHUD.m */,
 			);
-			name = MBProgress;
-			path = ../MBProgress;
+			path = MBProgress;
+			sourceTree = "<group>";
+		};
+		76ABD4EA1A2DA06400976BFA /* ALAssetsLibrary-CustomPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				76ABD4EB1A2DA06400976BFA /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				76ABD4EC1A2DA06400976BFA /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+			);
+			path = "ALAssetsLibrary-CustomPhotoAlbum";
 			sourceTree = "<group>";
 		};
 		76C7D2011A26B86D0062FEC0 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				766511081A22C09A0046F22C /* MBProgress */,
+				76CABBE41A2FF2C800CCCB0A /* SWRevealViewController */,
+				76ABD4EA1A2DA06400976BFA /* ALAssetsLibrary-CustomPhotoAlbum */,
 				76CB5B921A2C6EC20061C915 /* LineKit */,
 				76C7D2021A26B8780062FEC0 /* AFNetworking */,
 			);
@@ -326,7 +355,6 @@
 			isa = PBXGroup;
 			children = (
 				76C7D2011A26B86D0062FEC0 /* Library */,
-				76CBAF341A25D95100A38D61 /* Book */,
 				76C9D3CA1A216D4300C5BD61 /* Camera */,
 				76C9D3E41A216D4300C5BD61 /* CameraTests */,
 				76C9D3C91A216D4300C5BD61 /* Products */,
@@ -347,31 +375,12 @@
 		76C9D3CA1A216D4300C5BD61 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				76C9D3CF1A216D4300C5BD61 /* AppDelegate.h */,
-				76C9D3D01A216D4300C5BD61 /* AppDelegate.m */,
-				76C0DEAE1A28797C001CBA6B /* LoginViewController.h */,
-				76C0DEAF1A28797C001CBA6B /* LoginViewController.m */,
-				76C9D3FE1A21920000C5BD61 /* MainViewController.h */,
-				76C9D3FF1A21920000C5BD61 /* MainViewController.m */,
-				76C9D3FB1A21889200C5BD61 /* SidebarTableViewController.h */,
-				76C9D3FC1A21889200C5BD61 /* SidebarTableViewController.m */,
-				76C9D3D21A216D4300C5BD61 /* CameraViewController.h */,
-				76C9D3D31A216D4300C5BD61 /* CameraViewController.m */,
-				76C9D3F11A2174A700C5BD61 /* CaptureViewController.h */,
-				76C9D3F21A2174A700C5BD61 /* CaptureViewController.m */,
-				76C9D4171A21C7C800C5BD61 /* WebViewController.h */,
-				76C9D4181A21C7C800C5BD61 /* WebViewController.m */,
-				76CBAF311A25D3F600A38D61 /* ScanViewController.h */,
-				76CBAF321A25D3F600A38D61 /* ScanViewController.m */,
-				76CBAF2E1A25D28B00A38D61 /* ShowBookViewController.h */,
-				76CBAF2F1A25D28B00A38D61 /* ShowBookViewController.m */,
+				76CBAF341A25D95100A38D61 /* Book */,
+				76CABBE61A2FF36F00CCCB0A /* ViewController */,
 				76C9D3D51A216D4300C5BD61 /* Main.storyboard */,
 				76C9D3D81A216D4300C5BD61 /* Images.xcassets */,
 				76C9D3DA1A216D4300C5BD61 /* LaunchScreen.xib */,
 				76C9D3CB1A216D4300C5BD61 /* Supporting Files */,
-				76C9D3F41A21809000C5BD61 /* HomeViewController.h */,
-				76C9D3F51A21809000C5BD61 /* HomeViewController.m */,
-				766511081A22C09A0046F22C /* MBProgress */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -379,27 +388,12 @@
 		76C9D3CB1A216D4300C5BD61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				76C9D3CF1A216D4300C5BD61 /* AppDelegate.h */,
+				76C9D3D01A216D4300C5BD61 /* AppDelegate.m */,
+				76CABBE51A2FF2FC00CCCB0A /* Images */,
 				76C7D2541A270F000062FEC0 /* background */,
 				76CBAEFC1A25C90100A38D61 /* iOS 7+ */,
 				76CBAF081A25C90100A38D61 /* iOS 6 */,
-				76CBAF2C1A25D0E800A38D61 /* Barcode.png */,
-				76CB5B671A2C5CCB0061C915 /* mail-64.png */,
-				76CB5B681A2C5CCB0061C915 /* connect_back.jpg */,
-				76CB5B691A2C5CCB0061C915 /* about-64.png */,
-				76C0DE481A28059F001CBA6B /* circle-facebook-512.png */,
-				76C7D2631A27196E0062FEC0 /* search_48.png */,
-				76C9D4151A21C73C00C5BD61 /* choose_photo-48.png */,
-				76C9D4111A21B64500C5BD61 /* camera-48.png */,
-				76CBAF281A25CD8400A38D61 /* glasses.png */,
-				76C9D4121A21B64500C5BD61 /* video-48.png */,
-				76C9D40F1A21B5BD00C5BD61 /* web_archive-48.png */,
-				76C9D40D1A21B4EF00C5BD61 /* menu-32.png */,
-				76C9D4091A21AFA200C5BD61 /* mario.ico */,
-				76C9D4051A21AEB100C5BD61 /* menu.png */,
-				76CBAF2A1A25CE8D00A38D61 /* eys-64.png */,
-				76C9D4061A21AEB100C5BD61 /* menu@2x.png */,
-				76C9D4021A21942B00C5BD61 /* SWRevealViewController.h */,
-				76C9D4031A21942B00C5BD61 /* SWRevealViewController.m */,
 				76C9D3CC1A216D4300C5BD61 /* Info.plist */,
 				76C9D3CD1A216D4300C5BD61 /* main.m */,
 			);
@@ -421,6 +415,69 @@
 				76C9D3E61A216D4300C5BD61 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76CABBE41A2FF2C800CCCB0A /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76C9D4021A21942B00C5BD61 /* SWRevealViewController.h */,
+				76C9D4031A21942B00C5BD61 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		76CABBE51A2FF2FC00CCCB0A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				76CBAF2C1A25D0E800A38D61 /* Barcode.png */,
+				769A665A1A2F0C3700570B5B /* add-48.png */,
+				76CA375B1A2E979B000009AE /* myBook-64.png */,
+				76ABD2D11A2D465500976BFA /* share_64.png */,
+				76CB5B671A2C5CCB0061C915 /* mail-64.png */,
+				76CB5B681A2C5CCB0061C915 /* connect_back.jpg */,
+				76CB5B691A2C5CCB0061C915 /* about-64.png */,
+				7602B8491A2E882900E06A12 /* connect-64.png */,
+				76C0DE481A28059F001CBA6B /* circle-facebook-512.png */,
+				76C7D2631A27196E0062FEC0 /* search_48.png */,
+				76C9D4151A21C73C00C5BD61 /* choose_photo-48.png */,
+				76C9D4111A21B64500C5BD61 /* camera-48.png */,
+				76CBAF281A25CD8400A38D61 /* glasses.png */,
+				76C9D4121A21B64500C5BD61 /* video-48.png */,
+				76C9D40F1A21B5BD00C5BD61 /* web_archive-48.png */,
+				76C9D40D1A21B4EF00C5BD61 /* menu-32.png */,
+				76C9D4091A21AFA200C5BD61 /* mario.ico */,
+				76C9D4051A21AEB100C5BD61 /* menu.png */,
+				76CBAF2A1A25CE8D00A38D61 /* eys-64.png */,
+				76C9D4061A21AEB100C5BD61 /* menu@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		76CABBE61A2FF36F00CCCB0A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76C0DEAE1A28797C001CBA6B /* LoginViewController.h */,
+				76C0DEAF1A28797C001CBA6B /* LoginViewController.m */,
+				76C9D3FE1A21920000C5BD61 /* MainViewController.h */,
+				76C9D3FF1A21920000C5BD61 /* MainViewController.m */,
+				76CA375D1A2E982F000009AE /* MyBookViewController.h */,
+				76CA375E1A2E982F000009AE /* MyBookViewController.m */,
+				76C9D3FB1A21889200C5BD61 /* SidebarTableViewController.h */,
+				76C9D3FC1A21889200C5BD61 /* SidebarTableViewController.m */,
+				76C9D3D21A216D4300C5BD61 /* CameraViewController.h */,
+				76C9D3D31A216D4300C5BD61 /* CameraViewController.m */,
+				76C9D3F11A2174A700C5BD61 /* CaptureViewController.h */,
+				76C9D3F21A2174A700C5BD61 /* CaptureViewController.m */,
+				76C9D4171A21C7C800C5BD61 /* WebViewController.h */,
+				76C9D4181A21C7C800C5BD61 /* WebViewController.m */,
+				76CBAF311A25D3F600A38D61 /* ScanViewController.h */,
+				76CBAF321A25D3F600A38D61 /* ScanViewController.m */,
+				76CBAF2E1A25D28B00A38D61 /* ShowBookViewController.h */,
+				76CBAF2F1A25D28B00A38D61 /* ShowBookViewController.m */,
+				76C9D3F41A21809000C5BD61 /* HomeViewController.h */,
+				76C9D3F51A21809000C5BD61 /* HomeViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		76CB5B921A2C6EC20061C915 /* LineKit */ = {
@@ -467,6 +524,8 @@
 		76CBAF081A25C90100A38D61 /* iOS 6 */ = {
 			isa = PBXGroup;
 			children = (
+				76ABD2D31A2D4BDC00976BFA /* check_yes.png */,
+				76ABD2D41A2D4BDC00976BFA /* check_no.png */,
 				76CBAF091A25C90100A38D61 /* Icon-72.png */,
 				76CBAF0A1A25C90100A38D61 /* Icon-72@2x.png */,
 				76CBAF0B1A25C90100A38D61 /* Icon-Small-50.png */,
@@ -488,6 +547,7 @@
 				76CBAF361A25D96900A38D61 /* Book.m */,
 			);
 			name = Book;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		AE664FF7268E0B3FCCACA323 /* Pods */ = {
@@ -586,6 +646,7 @@
 				76C9D40E1A21B4EF00C5BD61 /* menu-32.png in Resources */,
 				76CBAF2D1A25D0E800A38D61 /* Barcode.png in Resources */,
 				76C9D40A1A21AFA200C5BD61 /* mario.ico in Resources */,
+				76ABD2D61A2D4BDC00976BFA /* check_no.png in Resources */,
 				76C9D4071A21AEB100C5BD61 /* menu.png in Resources */,
 				76C9D4141A21B64500C5BD61 /* video-48.png in Resources */,
 				76C9D3D71A216D4300C5BD61 /* Main.storyboard in Resources */,
@@ -606,6 +667,7 @@
 				766609301A2ADA5F009E8578 /* share_bakckground.jpg in Resources */,
 				76C7D2621A2717F40062FEC0 /* search_background.jpg in Resources */,
 				76CB5B6A1A2C5CCB0061C915 /* mail-64.png in Resources */,
+				76ABD2D51A2D4BDC00976BFA /* check_yes.png in Resources */,
 				76C7D2601A270F430062FEC0 /* milan.jpg in Resources */,
 				76C0DE491A28059F001CBA6B /* circle-facebook-512.png in Resources */,
 				76C7D25B1A270F430062FEC0 /* pic_back.jpg in Resources */,
@@ -621,10 +683,12 @@
 				76C7D2641A27196E0062FEC0 /* search_48.png in Resources */,
 				76CBAF181A25C90100A38D61 /* Icon-76@2x.png in Resources */,
 				76CBAF131A25C90100A38D61 /* Icon-40.png in Resources */,
+				76CA375C1A2E979B000009AE /* myBook-64.png in Resources */,
 				76CBAF1A1A25C90100A38D61 /* Icon-Small@2x.png in Resources */,
 				76CBAF291A25CD8400A38D61 /* glasses.png in Resources */,
 				76C9D3DC1A216D4300C5BD61 /* LaunchScreen.xib in Resources */,
 				76CBAF171A25C90100A38D61 /* Icon-76.png in Resources */,
+				769A665B1A2F0C3700570B5B /* add-48.png in Resources */,
 				76C7D25D1A270F430062FEC0 /* camrea_back3.jpg in Resources */,
 				76C9D3D91A216D4300C5BD61 /* Images.xcassets in Resources */,
 				76CB5B9E1A2C6EC20061C915 /* LKActivity.png in Resources */,
@@ -636,6 +700,8 @@
 				76CBAF141A25C90100A38D61 /* Icon-40@2x.png in Resources */,
 				76C9D4161A21C73D00C5BD61 /* choose_photo-48.png in Resources */,
 				76C9D4131A21B64500C5BD61 /* camera-48.png in Resources */,
+				7602B84A1A2E882900E06A12 /* connect-64.png in Resources */,
+				76ABD2D21A2D465500976BFA /* share_64.png in Resources */,
 				76C7D2661A2724130062FEC0 /* 8mm_video.jpg in Resources */,
 				76CBAF1D1A25C90100A38D61 /* iTunesArtwork@2x.png in Resources */,
 			);
@@ -697,6 +763,7 @@
 				76C7D21C1A26B8780062FEC0 /* AFURLConnectionOperation.m in Sources */,
 				76C9D4041A21942B00C5BD61 /* SWRevealViewController.m in Sources */,
 				76C7D2161A26B8780062FEC0 /* AFHTTPClient.m in Sources */,
+				76ABD4ED1A2DA06400976BFA /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				76C7D21B1A26B8780062FEC0 /* AFPropertyListRequestOperation.m in Sources */,
 				76CBAF371A25D96900A38D61 /* Book.m in Sources */,
 				76C7D21E1A26B8780062FEC0 /* UIImageView+AFNetworking.m in Sources */,
@@ -710,6 +777,7 @@
 				76CB5BA11A2C6EC20061C915 /* LKLineActivity.m in Sources */,
 				7665110B1A22C09A0046F22C /* MBProgressHUD.m in Sources */,
 				76C7D2171A26B8780062FEC0 /* AFHTTPRequestOperation.m in Sources */,
+				76CA375F1A2E982F000009AE /* MyBookViewController.m in Sources */,
 				76C7D2191A26B8780062FEC0 /* AFJSONRequestOperation.m in Sources */,
 				76C9D3CE1A216D4300C5BD61 /* main.m in Sources */,
 				76C9D3FD1A21889200C5BD61 /* SidebarTableViewController.m in Sources */,

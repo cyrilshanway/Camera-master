@@ -30,7 +30,7 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     menuItems = @[
-                  @"title",@"camera",@"video",@"web",@"search"];
+                  @"title",@"camera",@"video",@"connect",@"search",@"MyBook"];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -228,15 +228,15 @@
                                     <segue destination="lsy-Uj-8sN" kind="custom" identifier="capture view controller" customClass="SWRevealViewControllerSegue" id="KeV-vB-4Ba"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="web" id="AGd-3K-5KW">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="connect" id="AGd-3K-5KW" userLabel="connect">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AGd-3K-5KW" id="5mV-Fd-hjT">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="web_archive-48.png" translatesAutoresizingMaskIntoConstraints="NO" id="SEp-fa-FmY">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="connect-64.png" translatesAutoresizingMaskIntoConstraints="NO" id="SEp-fa-FmY">
                                             <rect key="frame" x="8" y="4" width="40" height="35"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Web" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRx-xe-Vd0">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connect" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRx-xe-Vd0">
                                             <rect key="frame" x="60" y="12" width="77" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -268,15 +268,15 @@
                                     <segue destination="lf6-yq-cp8" kind="custom" customClass="SWRevealViewControllerSegue" id="JqK-eC-aC8"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="8Hm-vF-ixF" userLabel="Barcode">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyBook" id="8Hm-vF-ixF" userLabel="MyBook">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8Hm-vF-ixF" id="sW5-Bk-gjI">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Barcode.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sc3-wF-Cqk">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="myBook-64.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sc3-wF-Cqk">
                                             <rect key="frame" x="8" y="4" width="40" height="35"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Barcode" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ta2-RN-6gG">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MyBook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ta2-RN-6gG">
                                             <rect key="frame" x="60" y="12" width="77" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -284,23 +284,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="tnF-cy-ScY" userLabel="Profile">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tnF-cy-ScY" id="A06-Ch-aDt">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Barcode.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Rb-U8-cGc">
-                                            <rect key="frame" x="8" y="4" width="40" height="35"/>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2J-cw-cKm">
-                                            <rect key="frame" x="60" y="12" width="77" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="PsG-jB-pIo" kind="custom" customClass="SWRevealViewControllerSegue" id="BFW-Vk-BFS"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -329,7 +315,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camrea_back3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fhb-aw-JSt">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NUg-Tb-nuI"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NUg-Tb-nuI">
+                                <rect key="frame" x="0.0" y="20" width="375" height="450"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwK-Fk-VMB">
                                 <rect key="frame" x="127" y="476" width="52" height="43"/>
                                 <state key="normal">
@@ -348,13 +336,35 @@
                                     <action selector="selectPhotoBtnPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Z9V-OJ-0WW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPP-Sq-AJx">
+                                <rect key="frame" x="308" y="622" width="51" height="37"/>
+                                <state key="normal" backgroundImage="share_64.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareBtnPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4Ws-qi-HNl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7I-bU-gkD">
+                                <rect key="frame" x="330" y="480" width="30" height="30"/>
+                                <state key="normal" backgroundImage="check_no.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="check_yes.png"/>
+                                <state key="highlighted" backgroundImage="check_yes.png"/>
+                                <connections>
+                                    <action selector="saveBtnPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IRt-SM-sZv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="XXe-9Z-zJX"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="checkBtn" destination="T7I-bU-gkD" id="dqC-9j-Hs9"/>
                         <outlet property="imageView" destination="NUg-Tb-nuI" id="bu6-tG-w9B"/>
+                        <outlet property="saveBtn" destination="T7I-bU-gkD" id="MqG-8V-AQT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -377,7 +387,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nv-B9-K2B">
-                                <rect key="frame" x="6" y="619" width="55" height="32"/>
+                                <rect key="frame" x="15" y="619" width="55" height="32"/>
                                 <state key="normal" image="video-48.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -385,10 +395,34 @@
                                     <action selector="captureVideo:" destination="lsy-Uj-8sN" eventType="touchUpInside" id="YLD-lS-HwI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Pg-lc-TE1">
+                                <rect key="frame" x="15" y="560" width="55" height="32"/>
+                                <state key="normal" backgroundImage="share_64.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareBtnPressed:" destination="lsy-Uj-8sN" eventType="touchUpInside" id="C3P-dK-Htf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctx-n1-dl3">
+                                <rect key="frame" x="330" y="480" width="30" height="30"/>
+                                <state key="normal" backgroundImage="check_no.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="check_yes.png"/>
+                                <state key="highlighted" backgroundImage="check_yes.png"/>
+                                <connections>
+                                    <action selector="saveBtnPressed:" destination="lsy-Uj-8sN" eventType="touchUpInside" id="9ha-Ag-FUx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="saveBtn" destination="ctx-n1-dl3" id="Tqw-lF-RPr"/>
+                        <outlet property="shareBtn" destination="0Pg-lc-TE1" id="ak4-lD-2w8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dMd-ce-95O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -466,7 +500,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icon-40.png" translatesAutoresizingMaskIntoConstraints="NO" id="aFG-r1-8tO">
-                                <rect key="frame" x="219" y="620" width="30" height="30"/>
+                                <rect key="frame" x="223" y="620" width="30" height="30"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mail-64.png" translatesAutoresizingMaskIntoConstraints="NO" id="XgC-UR-xfo">
                                 <rect key="frame" x="20" y="620" width="30" height="30"/>
@@ -507,7 +541,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yKp-iT-A13" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="922.5" y="757.5"/>
+            <point key="canvasLocation" x="894.5" y="1229.5"/>
         </scene>
         <!--Scan View Controller-->
         <scene sceneID="LcC-Zb-Epl">
@@ -606,8 +640,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqt-8w-glJ">
-                                <rect key="frame" x="308" y="150" width="48" height="48"/>
-                                <state key="normal" title="Save">
+                                <rect key="frame" x="328" y="162" width="36" height="36"/>
+                                <state key="normal" backgroundImage="add-48.png">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -656,7 +690,31 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xjy-0H-hUl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="459" y="510"/>
+            <point key="canvasLocation" x="399" y="1193"/>
+        </scene>
+        <!--My Book View Controller-->
+        <scene sceneID="s2L-sZ-Ohj">
+            <objects>
+                <viewController id="PsG-jB-pIo" customClass="MyBookViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iHp-aC-VrM"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Kb-TJ-6o3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tb1-kX-faa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="raed_back.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iAF-Jz-xIj">
+                                <rect key="frame" x="0.0" y="20" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p30-hZ-YMp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="525.5" y="380.5"/>
         </scene>
     </scenes>
     <resources>
@@ -664,20 +722,25 @@
         <image name="Barcode.png" width="128" height="128"/>
         <image name="Icon-40.png" width="40" height="40"/>
         <image name="LKActivity-Flat.png" width="60" height="60"/>
+        <image name="add-48.png" width="48" height="48"/>
         <image name="backGround.jpg" width="315" height="472"/>
         <image name="camera-48.png" width="48" height="37"/>
         <image name="camrea_back3.jpg" width="380" height="700"/>
+        <image name="check_no.png" width="64" height="64"/>
+        <image name="check_yes.png" width="64" height="64"/>
         <image name="choose_photo-48.png" width="48" height="39"/>
         <image name="circle-facebook-512.png" width="512" height="512"/>
+        <image name="connect-64.png" width="64" height="64"/>
         <image name="connect_back.jpg" width="480" height="640"/>
         <image name="eys-64.png" width="64" height="64"/>
         <image name="mail-64.png" width="64" height="48"/>
         <image name="menu-32.png" width="32" height="16"/>
+        <image name="myBook-64.png" width="64" height="64"/>
         <image name="raed_back.jpg" width="625" height="938"/>
         <image name="search_48.png" width="48" height="48"/>
         <image name="search_background.jpg" width="350" height="523"/>
+        <image name="share_64.png" width="64" height="64"/>
         <image name="video-48.png" width="48" height="32"/>
-        <image name="web_archive-48.png" width="48" height="48"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

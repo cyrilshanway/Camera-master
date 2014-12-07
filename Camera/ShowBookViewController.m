@@ -38,9 +38,9 @@
     // Do any additional setup after loading the view.
     
     //btn 潤飾
-    [_saveBtn.layer setCornerRadius:25.0f];
-    [_saveBtn.layer setBorderColor:[[UIColor grayColor]CGColor]];
-    [_saveBtn.layer setBorderWidth:2.0f];
+//    [_saveBtn.layer setCornerRadius:25.0f];
+//    [_saveBtn.layer setBorderColor:[[UIColor grayColor]CGColor]];
+//    [_saveBtn.layer setBorderWidth:2.0f];
     
     
     MainViewController *mainVC = [[MainViewController alloc] init];
